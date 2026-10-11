@@ -1,0 +1,23 @@
+# Зависимости
+node_modules/
+venv/
+__pycache__/
+
+# Секреты и ключи
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+
+# Сборки
+dist/
+build/
+*.log
+
+# Системные файлы macOS
+.DS_Store
+
+# Системные файлы Windows
+Thumbs.db
